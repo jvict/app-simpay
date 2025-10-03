@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Nova Promoção!",
+      "subtitle": "Descontos imperdíveis em produtos selecionados.",
+      "createdAt": "2023-10-26T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Atualização de Segurança",
+      "subtitle": "Sua conta agora está mais segura com a autenticação de dois fatores.",
+      "createdAt": "2023-10-25T14:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Recursos Adicionados",
+      "subtitle": "Confira as novas funcionalidades do app na sua área de perfil.",
+      "createdAt": "2023-10-24T09:15:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Manutenção Programada",
+      "subtitle": "Teremos uma breve manutenção no dia 28/10 às 02:00 (BRT).",
+      "createdAt": "2023-10-23T18:00:00Z"
+    }
+  ]
+}
