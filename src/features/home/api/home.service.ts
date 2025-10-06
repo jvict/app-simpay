@@ -1,4 +1,4 @@
-import homeFeedData from '../../../../mock/data/home-feed.json'; 
+import homeFeedData from '../../../../mock/data/home-feed.json';
 
 export interface FeedItem {
   id: string;
@@ -18,7 +18,7 @@ export const HomeService = {
    * Contrato: GET /mock/home-feed
    */
   async fetchHomeFeed(): Promise<{ items: FeedItem[] }> {
-    await simulateNetworkDelay(); // Simula o atraso da rede
+    await simulateNetworkDelay();
 
     if (Math.random() < 0.1) {
         const error = new Error('Simulação de falha de rede ao buscar feed.');
